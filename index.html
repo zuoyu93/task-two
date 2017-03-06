@@ -48,6 +48,12 @@
 			margin-left: 50px;
 			margin-top:30px;
 		}
+		.if{
+			text-align: right;padding: 5px 20px;
+		}
+		.rg{
+			text-align: left;padding: 5px 20px;
+		}
 		</style>
 	</head>
 	<body>
@@ -187,6 +193,50 @@
 		 			<div style="background-color: blue;text-align: center;height: 30px;margin:20px ;">
 		 				<input type="submit" value="确认提交" name="submit">
 		 		</form>
+		 </div>
+		 <div>
+		 	<table border="0">
+		 		<tr>
+		 			<td width="50%" class="if"><label>请输入邮箱地址</label></td>
+		 			<td width="50%" class="rg"><input type="email" name="email" value="这是一个文本输入框"></td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if"></td>
+		 			<td class="rg">邮箱地址请按要求格式输入</td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if">请输入密码</td>
+		 			<td class="rg"><input type="password" ></td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if">请重复输入密码</td>
+		 			<td class="rg"><input type="password" ></td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if"><label>性别</label></td>
+		 			<td class="rg"><input type="radio" name="性别" value="男" /><label>男</label>
+		 			    <input type="radio" name="性别" value="女" /><label>女</label>
+		 			</td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if"><label>城市</label></td>
+		 			<td class="rg"><select><option>北京</option></select></td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if"><label>爱好</label></td>
+		 			<td class="rg"><input type="checkbox" name="like" value="运动"><label>运动</label>
+		 			<input type="checkbox" name="like" value="艺术"><label>艺术</label>
+		 			<input type="checkbox" name="like" value="科学"><label>科学</label></td>
+		 		</tr>
+		 		<tr>
+		 			<td class="if"><label>个人描述</label></td>
+		 			<td class="rg"><textarea cols="50" rows="10">输入内容</textarea>
+		 			<div style="background-color: blue;text-align: center;height: 30px;margin:20px ;">
+		 				<input type="submit" value="确认提交" name="submit"></td>
+		 		</tr>
+		 		
+		 	</table>
+		 	
 		 </div>
 		 </div>
 		 <div id="footer">
